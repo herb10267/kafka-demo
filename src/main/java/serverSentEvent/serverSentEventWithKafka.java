@@ -9,10 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.kafka.clients.consumer.ConsumerRecords;
-
-@WebServlet("/serverSentEventDemo")
-public class serverSentEventDemo extends HttpServlet {
+@WebServlet("/serverSentEventWithKafka")
+public class serverSentEventWithKafka extends HttpServlet {
 	
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

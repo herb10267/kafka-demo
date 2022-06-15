@@ -19,8 +19,7 @@ public class ConsumerDemoWithShutDown {
 
     public static void main(String[] args) {
 
-//        String bootstrapServers = "localhost:9092";
-		String bootstrapServers = "kafka:9092";
+		String bootstrapServers = "localhost:9094";
         String groupId = "my-first-application";
         String topic = "dbserver1.inventory.customers";
 
