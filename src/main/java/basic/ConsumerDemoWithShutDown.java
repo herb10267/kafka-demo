@@ -19,9 +19,10 @@ public class ConsumerDemoWithShutDown {
 
     public static void main(String[] args) {
 
-        String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "my-third-application";
-        String topic = "demo_java";
+//        String bootstrapServers = "localhost:9092";
+		String bootstrapServers = "kafka:9092";
+        String groupId = "my-first-application";
+        String topic = "dbserver1.inventory.customers";
 
         // create property
         Properties prop = new Properties();
