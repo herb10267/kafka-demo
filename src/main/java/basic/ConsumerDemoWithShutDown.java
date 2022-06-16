@@ -38,7 +38,7 @@ public class ConsumerDemoWithShutDown {
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(prop);
 
         // get a reference to the current thread
-        final  Thread mainThread = Thread.currentThread();
+        final Thread mainThread = Thread.currentThread();
 
         // adding the shutdown hook
         Runtime.getRuntime().addShutdownHook(new Thread() {

@@ -21,14 +21,14 @@
             <artifactId>kafka-clients</artifactId>
             <version>3.0.0</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.32</version>
-        </dependency>
-
+	
+		<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams -->
+		<dependency>
+			<groupId>org.apache.kafka</groupId>
+			<artifactId>kafka-streams</artifactId>
+			<version>0.11.0.0</version>
+		</dependency>
+	
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
         <dependency>
             <groupId>org.slf4j</groupId>
