@@ -1,8 +1,5 @@
 package serverSentEvent;
 
-import basic.ConsumerDemoWithShutDown;
-
-import java.beans.EventHandler;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.time.Duration;

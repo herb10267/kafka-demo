@@ -8,14 +8,9 @@ windows 10
 
 # Using Docker-Compose To Start Up Container
 ```
-docker-compose -f docker-compose-mysql.yaml up
+docker-compose up -d
 ```
 # Setting Debezium Connector Config
 ```
 curl -i -X POST -H "Accept:application/json" -H  "Content-Type:application/json" http://localhost:8083/connectors/ -d @register-mysql.json
-```
-
-# Using Kafdrop Watching Kafka
-```
-docker run -d --rm -p 9001:9000 --network debezium_default --link kafka -e KAFKA_BROKERCONNECT=kafka:9092 -e JVM_OPTS="-Xms32M -Xmx64M" -e SERVER_SERVLET_CONTEXTPATH="/" obsidiandynamics/kafdrop
 ```

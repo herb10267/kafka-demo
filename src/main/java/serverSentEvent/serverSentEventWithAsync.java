@@ -1,7 +1,5 @@
 package serverSentEvent;
 
-import basic.ConsumerDemoWithShutDown;
-
 import java.io.IOException;
 import java.util.Properties;
 import java.util.Queue;
